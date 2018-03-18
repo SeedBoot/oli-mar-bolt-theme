@@ -4,7 +4,7 @@
   "description": "Template for Bolt CMS",
   "main": "source/index.js",
   "scripts": {
-    "sass": "sass --watch source/scss/theme.scss:/css/theme.css",
+    "sass": "sass --watch source/scss/theme.scss:css/theme.css",
     "babel": "babel -d js source"
   },
   "repository": {
