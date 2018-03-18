@@ -1,0 +1,27 @@
+{
+  "name": "oli-mar",
+  "version": "1.0.0",
+  "description": "Template for Bolt CMS",
+  "main": "source/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeedBoot/oli-mar-bolt-theme.git"
+  },
+  "keywords": [
+    "bolt",
+    "cms",
+    "twig",
+    "seedboot",
+    "oli",
+    "booty"
+  ],
+  "author": "Oli Booty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeedBoot/oli-mar-bolt-theme/issues"
+  },
+  "homepage": "https://github.com/SeedBoot/oli-mar-bolt-theme#readme"
+}
