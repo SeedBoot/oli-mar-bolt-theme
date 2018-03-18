@@ -4,7 +4,8 @@
   "description": "Template for Bolt CMS",
   "main": "source/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "source/scss/theme.scss:css/theme.css",
+    "babel": "babel -d js source"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/SeedBoot/oli-mar-bolt-theme/issues"
   },
-  "homepage": "https://github.com/SeedBoot/oli-mar-bolt-theme#readme"
+  "homepage": "https://github.com/SeedBoot/oli-mar-bolt-theme#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
